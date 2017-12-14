@@ -22,12 +22,14 @@ class NoteForm extends React.Component {
   render() {
     return (
       <Form onSubmit={this.handleSubmit}>
+        <Form.Field>
         <input
           required
           value={this.state.name}
           onChange={this.handleChange}
           placeholder='Write a new note...'
         />
+      </Form.Field>
       </Form>
     )
   }

@@ -19,8 +19,8 @@ const Footer = () => (
       </Button>
     {/* </Button.Group> */}
     <Segment floated='right' inverted color ='teal'>
+      <Icon name='tasks' size='huge' />
       <Header floated='right' as='h2' icon>
-    <Icon name='tasks' />
         Sticky Notes
         <Header.Subheader>
           For all of your To-Do needs!
